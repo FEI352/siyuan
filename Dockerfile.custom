@@ -1,0 +1,21 @@
+FROM b3log/siyuan:v3.7.1 AS base
+
+FROM alpine:latest AS lang-patch
+COPY --from=base /opt/siyuan /opt/siyuan
+# The lang files are in /opt/siyuan/appearance/langs/
+# We'll patch them with sed
+RUN for f in /opt/siyuan/appearance/langs/*.json; do \
+      sed -i 's/\("257":.*\)30\(.*\)/\1365\2/' "$f"; \
+    done
+
+FROM b3log/siyuan:v3.7.1
+LABEL maintainer="FEI352 <chyoupechhing@outlook.com>"
+
+# Replace kernel binary with patched version (365-day session)
+COPY --chmod=755 kernel_custom /opt/siyuan/kernel
+
+# Replace language files with patched versions (365-day text)
+COPY --from=lang-patch /opt/siyuan/appearance/langs/ /opt/siyuan/appearance/langs/
+
+ENTRYPOINT ["/opt/siyuan/entrypoint.sh"]
+CMD ["/opt/siyuan/kernel", "serve"]

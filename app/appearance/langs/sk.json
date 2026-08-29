@@ -2004,7 +2004,7 @@
     "254": "[Region ID] Nesprávne ID regiónu, pozrite si dokumentáciu poskytovateľa služieb S3 a nakonfigurujte ID regiónu",
     "255": "Ochrana proti hotlinkovaniu zabránila stiahnutiu %d zdrojov",
     "256": "Zadaná cesta [%s] má nadradenú cestu workspace [%s]",
-    "257": "Zapamätať na 30 dní",
+    "257": "Zapamätať na 365 dní",
     "258": "Operácia zlyhala, skúste neskôr",
     "259": "Posledných %d dní",
     "260": "Včera",

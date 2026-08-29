@@ -2004,7 +2004,7 @@
     "254": "[Regio-ID] Onjuiste regio-ID; raadpleeg de documentatie van de S3-provider om de regio-ID te configureren",
     "255": "Hotlink-beveiliging ingeschakeld; [%d] resources niet te downloaden",
     "256": "Pad [%s] heeft ouderwerkruimtepad [%s]",
-    "257": "Onthoud mij 30 dagen",
+    "257": "Onthoud mij 365 dagen",
     "258": "Bewerking mislukt; probeer later",
     "259": "Afgelopen %d dagen",
     "260": "Gisteren",

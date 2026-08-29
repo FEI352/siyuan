@@ -2004,7 +2004,7 @@
     "254": "[Region ID] hatalı Bölge ID, lütfen S3 hizmet sağlayıcısının belgelerini kontrol ederek doğru şekilde yapılandır",
     "255": "Hedef site hotlink koruması etkinleştirmiş, bu nedenle [%d] kaynak indirilemiyor",
     "256": "Belirtilen yol [%s], bir üst çalışma alanı yolu [%s] içeriyor",
-    "257": "Beni 30 gün hatırla",
+    "257": "Beni 365 gün hatırla",
     "258": "İşlem başarısız, lütfen daha sonra tekrar dene",
     "259": "Son %d gün",
     "260": "Dün",

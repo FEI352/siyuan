@@ -2004,7 +2004,7 @@
     "254": "[Region ID] ID Wilayah salah, silakan lihat dokumentasi penyedia layanan S3 untuk mengonfigurasi ID Wilayah",
     "255": "Situs target telah mengaktifkan perlindungan tautan, sehingga tidak mungkin mengunduh [%d] sumber daya",
     "256": "Jalur yang ditentukan [%s] memiliki jalur ruang kerja induk [%s]",
-    "257": "Ingat saya selama 30 hari",
+    "257": "Ingat saya selama 365 hari",
     "258": "Operasi gagal, silakan coba lagi nanti",
     "259": "%d hari terakhir",
     "260": "Kemarin",
