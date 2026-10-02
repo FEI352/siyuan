@@ -55,3 +55,6 @@ muslbin/
 /.cache/ocr/
 /app/stage/ocr/models/
 /app/stage/ocr/runtime/
+
+# Custom kernel binary for 365d session fork
+kernel_custom
