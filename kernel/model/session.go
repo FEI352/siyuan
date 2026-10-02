@@ -130,7 +130,7 @@ func LoginAuth(c *gin.Context, request apicontract.SystemLoginAuthRequest) (ret 
 	maxAge := 0 // Default session expiration (browser session)
 	if request.RememberMe {
 		// Add a 'Remember me' checkbox when logging in to save a session https://github.com/siyuan-note/siyuan/pull/14964
-		maxAge = 60 * 60 * 24 * 30 // 30 days
+		maxAge = 60 * 60 * 24 * 365 // 30 days
 	}
 	ginSessions.Default(c).Options(ginSessions.Options{
 		Path:     "/",

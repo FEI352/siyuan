@@ -2851,7 +2851,7 @@
 		"254": "[Region ID] Neispravan Region ID; pogledajte dokumentaciju svog S3 provajdera da biste ga ispravno podesili",
 		"255": "Ciljni sajt ima uključenu zaštitu od direktnog povezivanja pa [%d] resursa ne može da se preuzme",
 		"256": "Zadata putanja [%s] nalazi se unutar nadređenog radnog prostora [%s]",
-		"257": "Zapamti me 30 dana",
+		"257": "Zapamti me 365 dana",
 		"258": "Radnja nije uspela, pokušajte kasnije",
 		"259": "Poslednjih %d dana",
 		"260": "Juče",
